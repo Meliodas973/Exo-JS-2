@@ -9,3 +9,9 @@ class Contact {
     }
 }
 
+const caractere = prompt('Entrez votre nom');
+if (Contact >= 2) {
+   
+} else {
+    console.log('Veuillez rentrer plus de deux caracteres');
+}
