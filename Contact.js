@@ -5,7 +5,7 @@ class Contact {
         this.email = this.verifMail(email);
     }
     displayInfo(){
-        console.log('nom: ' + this.nom + '|| prenom: ' + this.prenom + '|| email: ' + this.email);
+        return 'nom: ' + this.nom + '|| prenom: ' + this.prenom + '|| email: ' + this.email;
     }
 
     verifName(nom, type, length){
